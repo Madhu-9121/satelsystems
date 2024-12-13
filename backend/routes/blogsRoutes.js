@@ -8,10 +8,10 @@ router.post("/create",blogsController.createPost)
 router.get("/getpost",blogsController.getPosts)
 
 // update post
-// router.patch("/update",blogsController.updatePost)
+router.patch("/update",blogsController.updatePost)
 
 // delete post
-// router.delete("/create",blogsController.deletePost)
+router.delete("/delete",blogsController.deletePost)
 
 
 
